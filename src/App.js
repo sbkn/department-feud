@@ -16,10 +16,10 @@ function App() {
                     return(
                         <>
                             <Title doShowText={true} titleText={question.titleText}/>
-                            {question.answers.map(answer => {
+                            {question.answers.map((answer, index) => {
                                 return (
-                                    <Answer doShowText={true} answerText={answer.answerText}/>
-                                )
+                                    <Answer index={index} doShowText={true} answerCount={answer.answerCount} answerText={answer.answerText}/>
+                                );
                             })}
                         </>
                     );
