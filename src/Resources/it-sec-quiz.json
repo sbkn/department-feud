@@ -1,0 +1,21 @@
+{
+  "questions": [
+	{
+	  "titleText": "Nennen Sie eine bekannte Antivirussoftware ...",
+	  "answers": [
+		{
+		  "answerCount": 52,
+		  "answerText": "Avira"
+		},
+		{
+		  "answerCount": 29,
+		  "answerText": "McAffee"
+		},
+		{
+		  "answerCount": 19,
+		  "answerText": "Kaspersky"
+		}
+	  ]
+	}
+  ]
+}

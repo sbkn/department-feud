@@ -2,20 +2,13 @@ import * as React from "react";
 
 export default class Answer extends React.Component {
 
-    constructor(props) {
-        super(props);
-
-        this.state = {
-            doShowText: false
-        }
-    }
-
-
     render() {
-        const {titleText: answerText} = this.props;
-        const {doShowText} = this.state;
+        const {answerText, answerCount, doShowText} = this.props;
         return (
-            <p>{doShowText && answerText}</p>
+            <>
+                <p>{doShowText && answerCount}</p>
+                <p>{doShowText && answerText}</p>
+            </>
         );
     }
 }
